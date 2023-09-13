@@ -2,6 +2,7 @@
   <div>
     <HomeHero />
     <HomeAbout />
+    <HomeSocials />
   </div>
 </template>
 
