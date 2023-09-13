@@ -2,6 +2,7 @@
   <div>
     <LayoutHeader />
     <slot />
+    <LayoutSocials />
   </div>
 </template>
 
