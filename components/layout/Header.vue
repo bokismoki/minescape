@@ -3,7 +3,7 @@
     class="fixed z-50 top-0 left-0 w-full transition-all duration-500 ease-in-out"
     :class="[
       isScrolling || showMobileNavigation
-        ? 'bg-white/90 py-[5px]'
+        ? 'bg-white/90 py-[5px] shadow-[0 6px 9px 0 rgba(0,0,0,.06)]'
         : 'py-[25px]',
     ]"
   >
@@ -11,7 +11,7 @@
       <nav class="flex items-center flex-wrap justify-between">
         <NuxtLink to="/" class="flex">
           <img
-            :src="Logo"
+            src="@/assets/media/logo.png"
             alt="Minescape server logo"
             width="240"
             height="93"
@@ -131,8 +131,6 @@
 </template>
 
 <script setup lang="ts">
-import Logo from "@/assets/media/logo.png";
-
 const isScrolling = ref(false);
 
 const showMobileNavigation = ref(false);
