@@ -137,7 +137,7 @@ const showMobileNavigation = ref(false);
 const navItems = [
   {
     label: "Home",
-    to: "/",
+    to: "/#home",
   },
   {
     label: "Forums",

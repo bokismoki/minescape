@@ -1,5 +1,5 @@
 <template>
-  <section class="relative h-screen">
+  <section id="home" class="relative h-screen">
     <div class="flex flex-col justify-center items-center h-full">
       <div class="container">
         <div class="relative z-20 text-center">

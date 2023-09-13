@@ -14,7 +14,7 @@ export default <Partial<Config>>{
         screens: {
           DEFAULT: "100%",
           sm: "540px",
-          md: "572px",
+          md: "720px",
           lg: "960px",
           xl: "1140px",
         },
