@@ -3,6 +3,7 @@
     <HomeHero />
     <HomeAbout />
     <HomeSocials />
+    <HomeBetaVideo />
   </div>
 </template>
 
