@@ -106,6 +106,27 @@
         </ul>
       </nav>
     </div>
+    <Transition name="fade">
+      <button
+        v-if="isScrolling"
+        aria-label="Scroll to top"
+        class="fixed bottom-[15px] right-[15px] z-50 w-11 h-11 flex items-center justify-center bg-accent rounded-full"
+        @click="scrollToTop"
+      >
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="3"
+          viewBox="0 0 24 24"
+          class="w-6 h-6 text-white"
+        >
+          <path d="m18 15-6-6-6 6" />
+        </svg>
+      </button>
+    </Transition>
   </header>
 </template>
 
@@ -161,6 +182,13 @@ const links = ref({
 
 const handleScrolling = () => {
   isScrolling.value = window.scrollY > 50;
+};
+
+const scrollToTop = () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
 };
 
 onMounted(() => {
