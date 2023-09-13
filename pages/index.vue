@@ -4,6 +4,7 @@
     <HomeAbout />
     <HomeSocials />
     <HomeBetaVideo />
+    <HomeStats />
   </div>
 </template>
 
