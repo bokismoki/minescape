@@ -39,16 +39,20 @@
                 class="absolute inset-0 w-full h-full object-cover"
               />
               <div
-                class="flex flex-col items-center justify-center text-center absolute inset-0 w-full h-full px-5 border-[20px] border-black border-opacity-10 bg-white/90 transition-all duration-300 opacity-0 group-hover:opacity-100"
+                class="flex flex-col items-center justify-center text-center absolute inset-0 w-full h-full px-5 border-[20px] overflow-hidden border-black border-opacity-10 bg-white/90 transition-all duration-300 opacity-0 group-hover:opacity-100"
               >
                 <div
-                  class="text-[1.75rem] leading-[1.2] font-medium text-accent mb-2"
+                  class="transition-all duration-500 -translate-y-1/2 group-hover:translate-y-0"
                 >
-                  {{ item.overlay.title }}
+                  <div
+                    class="text-[1.75rem] leading-[1.2] font-medium text-accent mb-2"
+                  >
+                    {{ item.overlay.title }}
+                  </div>
+                  <p class="text-black">
+                    {{ item.overlay.description }}
+                  </p>
                 </div>
-                <p class="text-black">
-                  {{ item.overlay.description }}
-                </p>
               </div>
             </div>
             <h3
