@@ -6,8 +6,8 @@
       backgroundImage: `url(${Bg})`,
     }"
   >
-    <div class="container">
-      <div class="relative z-10 bg-white px-5 py-12 md:px-12">
+    <div class="container relative z-10">
+      <div class="bg-white px-5 py-12 mb-12 md:px-12">
         <div class="mb-16">
           <h2
             class="text-5xl leading-[1.2] font-bold text-center text-accent uppercase mb-2"
@@ -63,6 +63,19 @@
             </div>
           </div>
         </div>
+      </div>
+      <div
+        class="flex flex-col items-center justify-center text-center text-white mb-5"
+      >
+        <p class="mb-1.5">
+          © Copyright <strong>MineScape™®</strong>. All Rights Reserved
+        </p>
+        <a href="https://forum.minescape.me/help/legal/" class="mb-4">
+          <p class="underline">Legal</p>
+        </a>
+        <a href="https://m.minescape.me/">
+          <p class="underline">Mobile</p>
+        </a>
       </div>
     </div>
     <div class="absolute inset-0 w-full h-full bg-accent opacity-70" />
