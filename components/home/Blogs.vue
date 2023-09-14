@@ -24,8 +24,13 @@
             boxShadow: '0 13px 8px -10px rgba(0,0,0,.1)',
           }"
         >
-          <div class="overflow-hidden">
+          <div class="relative">
             <img :src="card.cover" :alt="card.title" class="w-full" />
+            <div
+              class="absolute bottom-0 translate-y-1/2 left-1/2 -translate-x-1/2 text-[11px] leading-[2.27] tracking-[0.1px] text-white uppercase bg-accent rounded px-[15px] pt-[3px] pb-1 max-w-max h-8"
+            >
+              Blog post
+            </div>
           </div>
           <div class="pt-[30px] px-5 pb-9">
             <h3
