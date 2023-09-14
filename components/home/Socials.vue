@@ -74,9 +74,3 @@ const items = [
   },
 ];
 </script>
-
-<style>
-.layoutSocials--item:hover {
-  background-color: #000 !important;
-}
-</style>

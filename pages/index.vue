@@ -6,6 +6,7 @@
     <HomeBetaVideo />
     <HomeStats />
     <HomeImages />
+    <HomeTestimonials />
   </div>
 </template>
 

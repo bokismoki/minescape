@@ -19,7 +19,7 @@
           >
             <img
               :src="item.icon"
-              :alt="item.title"
+              :alt="item.label.replace(/<br\/?>/g, ' ')"
               class="w-auto h-8 grayscale brightness-0 invert"
             />
           </div>
@@ -64,9 +64,3 @@ const items = [
   },
 ];
 </script>
-
-<style>
-.layoutSocials--item:hover {
-  background-color: #000 !important;
-}
-</style>
