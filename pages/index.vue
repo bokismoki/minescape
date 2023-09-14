@@ -5,6 +5,7 @@
     <HomeSocials />
     <HomeBetaVideo />
     <HomeStats />
+    <HomeImages />
   </div>
 </template>
 
