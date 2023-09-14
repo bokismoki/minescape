@@ -7,6 +7,7 @@
     <HomeStats />
     <HomeImages />
     <HomeTestimonials />
+    <HomeBlogs />
   </div>
 </template>
 

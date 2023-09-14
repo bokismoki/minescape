@@ -1,5 +1,5 @@
 <template>
-  <section id="about" class="pt-16 pb-12">
+  <section id="images" class="pt-16 pb-12">
     <div class="container">
       <div class="mb-16">
         <h2
@@ -28,7 +28,7 @@
             <img
               :src="card.image"
               :alt="`${card.title} Build`"
-              class="transition-all duration-1000 group-hover:scale-[1.3]"
+              class="w-full transition-all duration-1000 group-hover:scale-[1.3]"
             />
           </div>
           <div class="pt-8 pb-4 pl-3.5 pr-2.5">

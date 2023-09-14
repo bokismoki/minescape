@@ -1,5 +1,5 @@
 <template>
-  <section id="about" class="py-16">
+  <section class="py-16">
     <div class="container">
       <div class="mb-6">
         <h2
