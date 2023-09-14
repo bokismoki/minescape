@@ -8,6 +8,7 @@
     <HomeImages />
     <HomeTestimonials />
     <HomeBlogs />
+    <HomeTeam />
   </div>
 </template>
 
