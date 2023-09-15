@@ -27,6 +27,11 @@ export default defineNuxtConfig({
         { name: "msapplication-TileColor", content: "#da532c" },
         { name: "theme-color", content: "#ffffff" },
       ],
+      script: [
+        {
+          src: "/scripts/lightbox-plus-jquery.js",
+        },
+      ],
     },
   },
   devtools: { enabled: true },
@@ -34,6 +39,7 @@ export default defineNuxtConfig({
     "@/assets/css/main.css",
     "@/assets/css/fonts.css",
     "@/assets/css/transitions.css",
+    "@/assets/css/lightbox.css",
   ],
   modules: ["@nuxtjs/tailwindcss", "nuxt-swiper", "@nuxt/content"],
   tailwindcss: {

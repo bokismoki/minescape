@@ -18,7 +18,9 @@
       >
         <div class="bg-white p-6 md:p-12">
           <div>
-            <img :src="blog.cover" :alt="blog.title" class="w-full mb-4" />
+            <a href="https://i.imgur.com/ZLxP2uf.png" data-lightbox="gallery">
+              <img :src="blog.cover" :alt="blog.title" class="w-full mb-4" />
+            </a>
             <div
               class="text-2xl leading-[1.2] font-medium text-accent mb-4 md:text-[1.9rem]"
             >
@@ -75,6 +77,16 @@
 
 <script setup lang="ts">
 import Blog1 from "@/assets/media/home/blog-1.jpeg";
+
+onMounted(() => {
+  const lightboxImages = document.querySelectorAll('[data-lightbox="gallery"]');
+
+  lightboxImages.forEach((image) => {
+    image.addEventListener("click", (event) => {
+      event.preventDefault();
+    });
+  });
+});
 
 const blog = ref({
   title: "DevBlog #38 Animal Magnetism Quest, Version Update & More",
