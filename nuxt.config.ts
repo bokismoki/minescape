@@ -35,7 +35,7 @@ export default defineNuxtConfig({
     "@/assets/css/fonts.css",
     "@/assets/css/transitions.css",
   ],
-  modules: ["@nuxtjs/tailwindcss", "nuxt-swiper"],
+  modules: ["@nuxtjs/tailwindcss", "nuxt-swiper", "@nuxt/content"],
   tailwindcss: {
     cssPath: "~/assets/css/tailwind.css",
     configPath: "tailwind.config.ts",
