@@ -99,30 +99,30 @@ const blog = ref({
 const recentPosts = ref([
   {
     title: "DevBlog #37 Drop Tables, Shop Rework, Improvements & More",
-    slug: "40",
+    slug: "41",
   },
   {
     title: "DevBlog #36 Brimhaven, Metal Dragons, Agility Shortcuts, Oh My!",
-    slug: "40",
+    slug: "41",
   },
   {
     title:
       "DevBlog #35 Agility Rooftops, Inventory Rework, New Team Members & More",
-    slug: "40",
+    slug: "41",
   },
   {
     title:
       "DevBlog #34 East Ardougne, 3 New Quests, Fishing Guild, Collection Log & Much, Much More",
-    slug: "40",
+    slug: "41",
   },
   {
     title:
       "DevBlog #33 Construction Release, Easter Event, Lost City Quest & Much More",
-    slug: "40",
+    slug: "41",
   },
   {
     title: "DevBlog #32 A Lovely New Year, Giant Mole & New Hud",
-    slug: "40",
+    slug: "41",
   },
 ]);
 
